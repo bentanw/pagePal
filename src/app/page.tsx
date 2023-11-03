@@ -1,4 +1,7 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { buttonVariants } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,6 +16,12 @@ export default function Home() {
         <span className='text-blue-600'>documents</span>{' '}
         in seconds.
       </h1>
+
+      <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">PagePal allows you to have conversations with any PDF document. Simply upload your file and start asking questions right away.</p>
+
+      <Link className={buttonVariants()} href="/dashboard" target="_blank">
+        Get Started <ArrowRight className="ml-2 h-5 w-5" />
+      </Link>
     </MaxWidthWrapper>
   )
 }
