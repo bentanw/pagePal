@@ -85,7 +85,7 @@ export default function Home() {
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
               Chatting to your PDF files has never been
-              easier than with Quill.
+              easier than with PagePal.
             </p>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function Home() {
                 Start asking questions
               </span>
               <span className='mt-2 text-zinc-700'>
-                It&apos;s that simple. Try out Quill today -
+                It&apos;s that simple. Try out PagePal today -
                 it really takes less than a minute.
               </span>
             </div>
